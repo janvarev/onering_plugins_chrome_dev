@@ -1,0 +1,1 @@
+GoogleChromePortable.exe --remote-debugging-port=9222 --remote-allow-origins=*
