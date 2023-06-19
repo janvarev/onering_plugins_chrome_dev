@@ -1,6 +1,8 @@
 # Deepl dev Translate plugin
 # author: Vladislav Janvarev
 
+# Solution are HEAVILY inspired by https://github.com/HIllya51/LunaTranslator
+
 from oneringcore import OneRingCore
 import os
 
