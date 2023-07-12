@@ -9,5 +9,10 @@ or use cmd like `GoogleChromePortable.exe --remote-debugging-port=9222 --remote-
 3. Now you get Chrome example that can be controlled by external plugin
 
 Next:
-1. Copy plugin_deepl_dev.py to your OneRingTranslator plugin folder
+1. Copy plugin to your OneRingTranslator plugin folder
 2. Run OneRingTranslator in usual style. Plugin must send translation phrases to controlled Chrome, and get results back.
+
+## Available plugins
+
+plugin_deepl_dev.py - for DeepL translation
+plugin_yandex_dev.py - for Yandex translation (you need to setup language pairs in options)
