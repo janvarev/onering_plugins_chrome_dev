@@ -88,10 +88,11 @@ def tranlate(websocketurl, content, src, tgt):
         # waitload(websocket)
         # res2 = waittransok(websocket)
         #time.sleep(0.2)
+
         websocket = create_connection(websocketurl)
-        SendRequest(websocket, 'Page.navigate',
-                    {'url': 'https://translate.yandex.com/?source_lang={}&target_lang={}'.format(src, tgt)})
-        time.sleep(0.3)
+        # SendRequest(websocket, 'Page.navigate',
+        #             {'url': 'https://translate.yandex.com/?source_lang={}&target_lang={}'.format(src, tgt)})
+        # time.sleep(0.3)
         SendRequest(websocket, 'Runtime.evaluate',
                     {"expression": 'document.querySelector("#translation > span").innerText=""'})
         SendRequest(websocket, 'Runtime.evaluate', {
